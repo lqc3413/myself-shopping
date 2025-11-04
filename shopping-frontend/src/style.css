@@ -1,0 +1,32 @@
+/* 移除body的flex居中 */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* 修改#app的样式 */
+#app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 主要内容区域 */
+.main-content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* 页面容器 */
+.page-container {
+  width: 100%;
+  max-width: 1280px; /* 保持最大宽度但确保居中 */
+  margin: 0 auto;
+  padding: 2rem;
+}
